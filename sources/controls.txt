@@ -1,0 +1,15 @@
+move:
+W - forward
+S - backward
+A - strafe left
+D - strafe right
+move mouse - move camera
+
+{-} - decrease ambient light intensity
+{+} - increase ambient light intensity
+
+{[} - decrease light diffusion
+{]} - increase light diffusion
+
+r - turn world rotation on/off
+t - turn bump (normal) mapping on/off

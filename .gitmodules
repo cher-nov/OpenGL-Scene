@@ -1,0 +1,3 @@
+[submodule "submodules/linmath"]
+	path = submodules/linmath
+	url = https://github.com/cher-nov/linmath.h.git
