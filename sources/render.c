@@ -192,10 +192,10 @@ static void calc_vertex_subinfo( vertex_t* vertices, int vertex_num,
     vertex_t* vx1 = &vertices[id1];
     vertex_t* vx2 = &vertices[id2];
 
-    vec3 normal;
+    vec3 normal = {0};
     calc_normal( normal, vx0->pos, vx1->pos, vx2->pos );
 
-    vec3 tangent;
+    vec3 tangent = {0};
     calc_tangent( tangent, vx0->pos, vx1->pos, vx2->pos,
       cVEC2T(vx0->tex), cVEC2T(vx1->tex), cVEC2T(vx2->tex) );
 

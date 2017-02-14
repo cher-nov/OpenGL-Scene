@@ -43,7 +43,7 @@ bool R_Init( res_id_t* err_res_id ) {
   for( unsigned int i = 0; i < res_count; ++i ) {
     res_info[i].data = load_file( res_files[i], &(res_info[i].len) );
     if (res_info[i].data == NULL) {
-      eprintf( "error: failed to load resource #%d from file \"%s\"\n",
+      eprintf( "error: failed to load resource #%u from file \"%s\"\n",
         i, res_files[i] );
       if (err_res_id != NULL) { *err_res_id = i; }
       return false;
